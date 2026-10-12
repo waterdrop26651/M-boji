@@ -1,11 +1,21 @@
 # 薄香肌俱乐部 · M-boji
 
-> 身体和认知，总要有一个先到达麦当劳。
+<div align="center">
+
+[![麦当劳程序员创意开发大赛](https://img.shields.io/badge/麦当劳程序员创意开发大赛-参赛作品-DA291C)](https://github.com/M-China/mcd-developer-innovation-challenge)
+[![MCP](https://img.shields.io/badge/MCP-mcp.mcd.cn-FFC72C)](https://open.mcd.cn/mcp)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-标准兼容-3FB950)](https://agentskills.io)
+[![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+[![Install](https://img.shields.io/badge/安装-一句话搞定-orange)](#一句话安装)
+
+**身体和认知，总要有一个先到达麦当劳。**
+
+</div>
 
 薄肌俱乐部（麦门分部）—— 专为"只会做题不练腿"的程序员开设的麦当劳修行组织。
 一个基于**麦当劳官方 MCP** 的 Agent Skill：用真实营养数据做配餐，用真实订单做复盘，用梗做信仰。
 
-**麦当劳程序员创意开发大赛参赛作品。**
+玩梗之外，它认真回答一个问题：**你这顿麦当劳，到底吃进去了多少蛋白质？**
 
 ## 俱乐部八大规则
 
@@ -25,6 +35,29 @@
 - **薄肌值**：你的身体管理怎么样（真实订单营养复盘 + 体测问卷）
 - **认知值**：你的决策质量怎么样（点餐内耗检测、做题家行为审判）
 - 双轴定段位：**做题家 → 觉醒者 → 薄肌信徒 → 薄肌大师 → 古希腊雕塑**
+
+## 30 秒预览（什么都不用装）
+
+入会测评 → 双轴判决书 → 生成认证卡：
+
+<div align="center">
+<img src="examples/certificate-demo.svg" alt="入会认证卡示例" width="480">
+</div>
+
+真实配餐（数据来自 2026-10-12 对王府井门店的真实 MCP 调用）：
+
+```
+你：帮我配个减脂餐，700 大卡以内，明天中午到店取，王府井。
+店长：取数中——营养库 160 项 × 该店实时菜单 103 项，交叉验证。
+     配餐如下：
+       双层吉士汉堡   429 kcal / 蛋白质 27g / ¥23.0
+       薄皮焦香V翅    192 kcal / 蛋白质 17g / ¥15.5
+       ─────────────────────────────
+       合计           621 kcal / 蛋白质 44g / ¥38.5（服务端权威核价）
+     你的肌肉在工位底下悄悄生长。是否下单？
+```
+
+完整对话实录见 [examples/demo-session.md](examples/demo-session.md)。
 
 ## 一句话安装
 
