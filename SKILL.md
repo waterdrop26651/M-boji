@@ -1,9 +1,9 @@
 ---
-name: boxiangji-club
+name: m-boji
 description: 薄香肌俱乐部 —— 基于麦当劳官方 MCP 的程序员薄肌修行 Skill。当用户想在麦当劳吃得更健康（增肌/减脂/控热量）、纠结"今天吃什么"、深夜加班需要点餐决策、想要麦门优惠券攻略、或想进行薄肌浓度测评与段位认证时使用。覆盖配餐推荐、权威核价、券组合、活动日历、订单复盘、深夜审判与认证卡生成。
 license: MIT
 metadata:
-  author: boxiangji-club
+  author: waterdrop26651
   version: 1.0.0
   contest: 麦当劳程序员创意开发大赛
 ---
