@@ -30,9 +30,11 @@
 
 不用装任何东西。把这段话直接发给你的 Agent（Cursor / Claude Code / Trae / WorkBuddy / Cherry Studio 等任何支持 MCP 的都行）：
 
-> 读取 https://github.com/waterdrop26651/boxiangji-club 里的 SKILL.md，从现在开始按它扮演薄香肌俱乐部店长。然后按仓库里的 mcp-config.example.json 帮我配置麦当劳 MCP，Token 我会发给你。配好后跟我说：欢迎入会。
+```
+读取 https://github.com/waterdrop26651/boxiangji-club 里的 SKILL.md，从现在开始按它扮演薄香肌俱乐部店长。然后按仓库里的 mcp-config.example.json 帮我配置麦当劳 MCP，Token 我会发给你。配好后跟我说：欢迎入会。
+```
 
-就这一句。Agent 会自己读懂规则、配好 MCP、完成入会仪式。
+点击右上角一键复制。Agent 会自己读懂规则、配好 MCP、完成入会仪式。
 
 > 如果你用的是支持 [Agent Skills](https://agentskills.io) 标准的客户端，也可以 `npx skills add waterdrop26651/boxiangji-club` 一键装进本机所有 Agent（Claude Code / Cursor / Codex / Trae / OpenCode / Gemini CLI 等 79+ 个）。
 
