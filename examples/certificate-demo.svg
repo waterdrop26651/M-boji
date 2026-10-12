@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <!-- 薄香肌俱乐部 · 入会认证卡模板
+       占位符：Demo 信徒 42 61 Lv.1 觉醒者 2026-10-12 你的问题不是吃得多，是根本不知道自己在吃什么 168 117 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7b500"/>
+      <stop offset="1" stop-color="#ffd23f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" rx="24" fill="url(#bg)"/>
+  <rect x="16" y="16" width="768" height="968" rx="18" fill="none" stroke="url(#gold)" stroke-width="3"/>
+
+  <!-- 头部 -->
+  <text x="400" y="90" text-anchor="middle" font-size="44" font-weight="bold" fill="#ffd23f">薄香肌俱乐部</text>
+  <text x="400" y="128" text-anchor="middle" font-size="18" fill="#999">BoXiangJi Club · 薄肌俱乐部麦门分部</text>
+  <line x1="120" y1="155" x2="680" y2="155" stroke="#ffd23f" stroke-width="1" opacity="0.5"/>
+
+  <!-- 会员信息 -->
+  <text x="400" y="210" text-anchor="middle" font-size="26" fill="#fff">会员：Demo 信徒</text>
+  <text x="400" y="260" text-anchor="middle" font-size="60" font-weight="bold" fill="url(#gold)">Lv.1 觉醒者</text>
+
+  <!-- 双轴四象限图 -->
+  <g transform="translate(200, 320)">
+    <rect width="400" height="300" rx="8" fill="#222" stroke="#555"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#555" stroke-dasharray="4"/>
+    <line x1="0" y1="150" x2="400" y2="150" stroke="#555" stroke-dasharray="4"/>
+    <text x="100" y="145" text-anchor="middle" font-size="14" fill="#888">做题家</text>
+    <text x="300" y="145" text-anchor="middle" font-size="14" fill="#888">认知自由</text>
+    <text x="100" y="170" text-anchor="middle" font-size="14" fill="#888">干饭人</text>
+    <text x="300" y="170" text-anchor="middle" font-size="14" fill="#888">古希腊雕塑</text>
+    <!-- 会员坐标点：QUADRANT_X/QUADRANT_Y 为 0-400 / 0-300 的像素值 -->
+    <circle cx="168" cy="117" r="10" fill="#dd1a21" stroke="#fff" stroke-width="2"/>
+    <text x="168" y="117" dy="-18" text-anchor="middle" font-size="13" fill="#fff">你在这里</text>
+    <text x="200" y="335" text-anchor="middle" font-size="14" fill="#888">薄肌值 →</text>
+    <text x="-15" y="150" text-anchor="middle" font-size="14" fill="#888" transform="rotate(-90 -15 150)">认知值 →</text>
+  </g>
+
+  <!-- 双轴分数 -->
+  <g transform="translate(130, 720)">
+    <rect width="260" height="90" rx="12" fill="#222" stroke="#f7b500"/>
+    <text x="130" y="38" text-anchor="middle" font-size="16" fill="#f7b500">薄肌值</text>
+    <text x="130" y="72" text-anchor="middle" font-size="32" font-weight="bold" fill="#fff">42</text>
+    <rect x="280" width="260" height="90" rx="12" fill="#222" stroke="#f7b500"/>
+    <text x="410" y="38" text-anchor="middle" font-size="16" fill="#f7b500">认知值</text>
+    <text x="410" y="72" text-anchor="middle" font-size="32" font-weight="bold" fill="#fff">61</text>
+  </g>
+
+  <!-- 判决书金句 -->
+  <text x="400" y="880" text-anchor="middle" font-size="17" fill="#ccc" font-style="italic">「你的问题不是吃得多，是根本不知道自己在吃什么」</text>
+
+  <!-- 底部 -->
+  <line x1="120" y1="915" x2="680" y2="915" stroke="#ffd23f" stroke-width="1" opacity="0.5"/>
+  <text x="400" y="948" text-anchor="middle" font-size="14" fill="#777">2026-10-12 · 麦当劳程序员创意开发大赛参赛作品</text>
+  <text x="400" y="972" text-anchor="middle" font-size="13" fill="#666">第一条：你必须一直谈论薄香肌俱乐部</text>
+</svg>

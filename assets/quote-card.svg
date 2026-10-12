@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <!-- 每日认知金句卡模板
+       占位符：{{QUOTE_MAIN}} {{QUOTE_SUB}} {{DATE}} {{ACTIVITY}} -->
+  <defs>
+    <linearGradient id="qbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dd1a21"/>
+      <stop offset="1" stop-color="#8f0f14"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="20" fill="url(#qbg)"/>
+  <text x="60" y="80" font-size="20" fill="#ffd23f" font-weight="bold">薄香肌俱乐部 · 每日认知</text>
+  <text x="740" y="80" text-anchor="end" font-size="15" fill="#ffb3b6">{{DATE}}</text>
+
+  <text x="400" y="200" text-anchor="middle" font-size="34" font-weight="bold" fill="#fff">「{{QUOTE_MAIN}}」</text>
+  <text x="400" y="255" text-anchor="middle" font-size="17" fill="#ffd9da">{{QUOTE_SUB}}</text>
+
+  <line x1="150" y1="310" x2="650" y2="310" stroke="#ffd23f" stroke-width="1" opacity="0.6"/>
+  <text x="400" y="350" text-anchor="middle" font-size="16" fill="#ffd23f">今日活动 · {{ACTIVITY}}</text>
+  <text x="400" y="415" text-anchor="middle" font-size="13" fill="#e9a3a6">第五条：认知和薄肌，每天至少要练一个</text>
+</svg>
